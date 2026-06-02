@@ -1,0 +1,3 @@
+particlesJS("particles",{"particles":{"number":{"value":55},"color":{"value":"#1e90ff"},"line_linked":{"enable":true,"color":"#1e90ff"},"move":{"enable":true,"speed":2}}});
+document.querySelectorAll(".fade-up").forEach(el=>{const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("show")})});obs.observe(el)});
+document.querySelectorAll(".counter").forEach(c=>{let t=+c.dataset.target,n=0,s=t/80;function u(){n+=s;if(n<t){c.innerText=Math.floor(n);requestAnimationFrame(u)}else c.innerText=t+"+"}u()})
