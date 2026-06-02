@@ -1,1 +1,1 @@
-console.log("ANK Infosys loaded successfully");
+console.log("ANK Infosys website loaded successfully");
