@@ -6,7 +6,7 @@ body{background:#f4f7fc}
 .logo-text{font-size:26px;font-weight:700;color:#0b7dff}
 nav a{color:#fff;text-decoration:none;margin:0 12px}
 .btn,button{background:#0b7dff;color:#fff;padding:12px 22px;border:none;border-radius:8px;text-decoration:none}
-.hero{height:90vh;background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.75)),url('../images/hero.png') center/cover;display:flex;align-items:center;padding:60px;color:#fff}
+.hero{height:90vh;background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.75)),url('hero.png') center/cover;display:flex;align-items:center;padding:60px;color:#fff}
 .hero h1{font-size:54px;max-width:650px}
 .hero p{margin:20px 0}
 .about,.products,.contact{padding:80px 30px;text-align:center}
