@@ -1,1 +1,0 @@
-document.querySelectorAll('nav a').forEach(a=>{a.onclick=function(e){e.preventDefault();document.querySelector(this.getAttribute('href')).scrollIntoView({behavior:'smooth'});}});
